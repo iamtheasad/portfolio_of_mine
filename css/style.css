@@ -44,6 +44,7 @@ header section start
 .menu_bg {
   background: rgba(0,0,0,0.4);
   padding: 10px 15px;
+  min-height: 5em;
 }
 
 
@@ -274,7 +275,7 @@ body {
 	background:#fff;
 }
 .item{
-    padding: 2px 165px;
+    padding: 2px 0px;
 }
 .item p{
 	font-size:30px;
