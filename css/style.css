@@ -272,19 +272,19 @@ body {
 *******************************/
 
 .about-bg{
-	background:#fff;
+	background:#3e3e3e;
 }
 .item{
     padding: 2px 0px;
 }
 .item p{
 	font-size:30px;
-    line-height: 1.5;
-	color:#333;
+  line-height: 1.5;
+	color:#fff;
 	padding-bottom:10px;
 }
 .item h4{
-	color:#333;
+	color:#fff;
 	font-size:13px;
 }
 /*  about-content section end */
