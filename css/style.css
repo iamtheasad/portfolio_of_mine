@@ -11,6 +11,9 @@ header section start
   margin-top: 30px; 
   margin-bottom: -14px;
 }
+.navbar-nav {
+  text-align: center;
+}
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: #fff;
   border-bottom: 1px solid #fff;
@@ -42,7 +45,7 @@ header section start
   border-color: #87D37C;
 }
 .menu_bg {
-  background: rgba(0,0,0,0.4);
+  background: rgb(62, 62, 62);
   padding: 10px 15px;
   min-height: 5em;
 }
@@ -392,7 +395,7 @@ body {
 	color:#fff;
 }
 .social-icons input{
-  padding: 25px 112px;
+  padding:25px 80px;
   text-transform: uppercase;
   display: inherit;
   background: #87D37C;
@@ -409,6 +412,7 @@ body {
 .get-in-touchButton {
   text-align: center;
   padding-left: 30px;
+  overflow: hidden;
 }
 .footer-middle-name a h2{
   margin-top: 60px;

@@ -1,3 +1,10 @@
+
+@media screen and (max-width: 1440px){
+	.get-in-touchButton {
+		padding-left: 28%;
+  }
+}
+
 @media screen and (max-width:1310px){
 	.after-video-content {
 		margin-top: 292px;
@@ -19,6 +26,11 @@
 		video#bgVideo {
 		top: -14px;
 	}
+	}
+	@media screen and (max-width: 1199px){
+		.social-icons input {
+			padding: 12px 30px;
+		}
 	}
 	
 	@media screen and (max-width:1121px){
@@ -67,7 +79,7 @@
 		top: -60px;
 		}
 		.after-video-content {
-		margin-top: 133px;
+		margin-top: 110px;
 		padding: 5px 10px;
 		width: 21em;
 		margin-left: 8px;
@@ -81,7 +93,7 @@
 		margin-left: -40px;
 		}
 		.social-icons input {
-		padding: 25px 76px;
+		padding: 15px 35px
 		}
 		.first-content h3 {
 		font-size: 16px;
@@ -113,6 +125,23 @@
 		margin-left: 256px;
 	}
 	}
+
+	@media screen and (max-width:963px){
+		video#bgVideo {
+			display: none;
+	  }
+	  .after-video-content2 h2 {
+		display: none;
+  }
+	  .after-video-content {
+		display: none;
+  }
+	  .carousel-inner {
+		padding-bottom: 50px;
+		padding-top: 50px;
+	  }
+	}
+
 
 	@media screen and (max-width:940px){
 	.after-video-content3 {
@@ -152,6 +181,13 @@
 	.carousel {
 		display: none;
 	}
+	}
+
+	@media screen and (max-width:881px){
+		.social-icons i {
+			font-size: 15px;
+			padding: 10px 12px;
+	  }
 	}
 
 	@media screen and (max-width:860px){
@@ -335,6 +371,30 @@
 	.carousel {
 		display: none;
 	}
+	.service-creat-overlay {
+		height: unset;
+  }
+	}
+
+	@media screen and (max-width:767px){
+		.navbar-default .navbar-nav>li>a {
+			font-size: 14px;
+	  }
+		.text-right {
+			text-align: center;
+	  }
+	  .get-in-touchButton {
+		padding-left: 35%;
+		}
+		 .first-content {
+			text-align: center;
+	  }
+	  .explore {
+		padding-bottom: 35px;
+	  }
+	  .footer-logo {
+		padding-top: 20px;
+  	  }
 	}
 
 	@media screen and (max-width:727px){
@@ -421,8 +481,8 @@
 		font-size: 16px;
 		}
 	.navbar-toggle {
-		margin-right: 50%;
-		}
+			margin-right: 47%;
+	  }
 	.navbar-nav {
 		margin: 7.5px 39%;
 		}
@@ -543,6 +603,15 @@
 		.carousel {
 		display: none;
 	}
+	}
+
+	@media screen and (max-width: 420px){
+		.get-in-touchButton {
+			padding-left: 28%;
+	  }
+	  .navbar-default .navbar-nav>li>a {
+		font-size: 12px;
+  }
 	}
 
 	@media screen and (max-width:393px){
