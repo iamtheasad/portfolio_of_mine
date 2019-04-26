@@ -1,4 +1,3 @@
-# portfolio_of_mine
 
 It's a multipage, fully-responsive, portfolio website. Here I used HTML5, CSS3, jQuery, Isotope for image, Bootstrap and font-awesome.
 
