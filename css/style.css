@@ -30,7 +30,7 @@ header section start
 }
 .navbar-default .navbar-nav>li>a {
   color: #87D37C;
-	font-size: 17px;
+  font-size: 17px;
 }
 .navbar-default .navbar-toggle {
   border-color: #87D37C;
@@ -87,7 +87,8 @@ video#bgVideo {
 /* Isotope start */
 
 * { 
-  box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+          box-sizing: border-box; 
 }
 body {
   font-family: sans-serif;
@@ -118,7 +119,8 @@ body {
   color: white;
 }
 .button:active {
-  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+  -webkit-box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+          box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
 }
 
 /*  button-group  */
@@ -158,6 +160,7 @@ body {
   overflow:hidden;
 }
 .element-item img{
+	-o-transition:2s;
 	transition:2s;
 	-webkit-transition:2s;
 	-moz-transition:2s;
@@ -226,6 +229,8 @@ body {
 	position:absolute;
 	left:45%;
 	bottom:-100%;
+	-webkit-transition:.4s;
+	-o-transition:.4s;
 	transition:.4s;
 }
 .element-item:hover .portfolio-link{
@@ -240,6 +245,8 @@ body {
   line-height: 59px;
   padding-left: 15px;
   color: #87D37C;
+	-webkit-transition:.4s;
+	-o-transition:.4s;
 	transition:.4s;
 }
 .portfolio-link i:hover{
@@ -259,9 +266,11 @@ body {
   -moz-transition: .5s;
   -o-transition: .5s;
 	background-color:rgba(0,0,0,0.5);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0.5)), color-stop(20%, transparent));
+  background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.5) 0%, transparent 20%);
+  background-image: -o-linear-gradient(bottom, rgba(0,0,0,0.5) 0%, transparent 20%);
   background-image: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 20%);
   background-image: -webkit-linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 20%);
-  background-image: -moz-linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 20%);
   background-image: -o-linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 20%);
 }
 /* portfolio section end */
@@ -296,9 +305,11 @@ body {
 
 #footer {
 	background-color: #333;
+	background-image: -webkit-gradient(linear, left top, right top, from(#333), to(#222));
+	background-image: -webkit-linear-gradient(left, #333 0%, #222 100%);
+	background-image: -o-linear-gradient(left, #333 0%, #222 100%);
 	background-image: linear-gradient(to right, #333 0%, #222 100%);
 	background-image: -webkit-linear-gradient(to right, #333 0%, #222 100%);
-	background-image: -moz-linear-gradient(to right, #333 0%, #222 100%);
 	background-image: -o-linear-gradient(to right, #333 0%, #222 100%);
 	font-family: sans-serif;
   position: relative;
@@ -366,10 +377,9 @@ body {
 }
 .explore h4:hover{
 	color:#888;
+	-webkit-transition:.3s;
+	-o-transition:.3s;
 	transition:.3s;
-}
-.social-icons {
-
 }
 .social-icons i{
   color: #87D37C;
@@ -392,6 +402,8 @@ body {
 }
 .social-icons input:hover{
 	background:#62c653;
+	-webkit-transition:.2s;
+	-o-transition:.2s;
 	transition:.2s;
 }
 .get-in-touchButton {
@@ -432,6 +444,8 @@ body {
 	top:0%;
 	bottom:0px;
 	left:0px;
+	-webkit-transition:.5s;
+	-o-transition:.5s;
 	transition:.5s;
 }
 .service-title:hover .service-title-overlay{
@@ -471,6 +485,8 @@ body {
 	top:0%;
 	bottom:0px;
 	left:0px;
+	-webkit-transition:.5s;
+	-o-transition:.5s;
 	transition:.5s;
 }
 .service-creat-overlay:hover .creat-overlay{
@@ -573,7 +589,8 @@ Form section Start
 #contact {
 	background: #F9F9F9;
   padding: 25px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   margin-top: 150px;
   margin-bottom: 100px;
 }
@@ -613,7 +630,7 @@ fieldset {
 #contact input[type="url"]:hover,
 #contact textarea:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   border: 1px solid #aaa;
 }
@@ -635,11 +652,13 @@ fieldset {
 #contact button[type="submit"]:hover {
   background: #43A047;
   -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
 #contact button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 .copyright {
   text-align: center;
